@@ -25,7 +25,7 @@ const CERTIFICATE_IMAGES = [
   '/certificates/journey-to-ai-world-bootcamp.png',
 ]
 
-export function Achievements({ t }: { t: Content }) {
+export function Achievements({ t }: { t: Content; empty?: boolean }) {
   const [tab, setTab] = useState<Tab>('all')
   const a = t.achievements
 
