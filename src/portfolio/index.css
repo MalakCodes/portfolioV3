@@ -1,0 +1,10 @@
+/* This frame draws in its prototype's stylesheet, imported here. The theme lives there: never copy it into this file. */
+@import '../styles/index.css';
+[data-theme='dark'] {
+  --color-ink: #f3edf7;
+  --color-ink-2: #d2c4dc;
+  --color-muted: #a394b0;
+}
+[data-theme='dark'] .bg-white {
+  color: #171717;
+}
