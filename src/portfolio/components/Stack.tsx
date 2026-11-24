@@ -40,21 +40,6 @@ export function Stack({ t, empty }: { t: Content; empty: boolean }) {
         line={4}
         title={t.sections.stack.title}
         sub={t.sections.stack.sub}
-        action={
-          !empty && (
-            <div className="flex items-center gap-4 text-sm text-muted">
-              <span className="flex items-center gap-1.5">
-                <span className="size-1.5 rounded-full bg-accent" />
-                {t.stack.core}
-              </span>
-
-              <span className="flex items-center gap-1.5">
-                <span className="size-1.5 rounded-full border border-line-strong" />
-                {t.stack.familiar}
-              </span>
-            </div>
-          )
-        }
       />
 
       {empty ? (
